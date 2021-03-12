@@ -1,0 +1,23 @@
+[
+    {
+       "img": "/img/avatar/avatar-10.jpg",
+       "type": "avatar",
+       "title": "Jack London",
+       "dropdown": [
+          {
+             "title": "Invite",
+             "link": "/invite"
+          },
+          {
+            "title": "Setting",
+            "link": "/setting"
+         },
+         {
+            "title": "Sign out",
+            "link": "/login",
+            "divider": true
+         }
+       ]
+      
+    }
+]

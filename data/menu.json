@@ -1,0 +1,25 @@
+[
+
+   {
+      "title":"Search Providers",
+      "link":"/doctors"
+   },
+   {
+      "title":"View Appointment",
+      "link":"/viewAppointments"
+   },
+   {
+      "title":"View Reviews",
+      "link":"/viewReviews"
+   },
+    {
+       "title":"Sign in",
+       "link":"/login",
+       "hideToLoggedUser": true
+    },
+    {
+       "title":"Sign up",
+       "link":"/signup",
+       "hideToLoggedUser": true
+    }
+ ]

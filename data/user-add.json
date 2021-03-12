@@ -1,0 +1,305 @@
+[
+  {
+    "title": "Share socially"
+  },
+  {
+    "title": "Basic information",
+    "subtitle": "Add a new listing",
+    "formBlocks": [
+      {
+        "title": "Profile",
+        "content": "His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table.",
+        "inputs": [
+          {
+            "label": "",
+            "type": "form-group",
+            "inputs": [
+              {
+                "label": "first Name",
+                "name": "form_name",
+                "type": "text",
+                "col": "6"
+              },
+              {
+                "label": "Last Name",
+                "name": "form_last_name",
+                "type": "text",
+                "col": "6"
+              }
+            ]
+          },
+         
+          {
+            "label": "Adress",
+            "type": "form-group",
+            "inputs": [
+              {
+                "label": "E-Mail",
+                "name": "form_email",
+                "type": "text",
+                "col": "6"
+              },
+              {
+                "label": "mobile Number",
+                "name": "form_mobile_number",
+                "type": "number",
+                "col": "6"
+              }
+            ]
+          },
+          {
+            "label": "Adress",
+            "type": "form-group",
+            "inputs": [
+              {
+                "label": "Zip Code",
+                "name": "form_zip",
+                "type": "text",
+                "col": "12"
+              }
+            ]
+          },
+          {
+            "label": "Gender",
+            "name": "type",
+            "type": "select",
+            "options": [
+              {
+                "label": "Mail",
+                "value": "Mail"
+              },
+              {
+                "label": "Femail",
+                "value": "Femail"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Password",
+        "content": "Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.",
+        "inputs": [
+          {
+            "label": "Enter new password",
+            "name": "form_new_password",
+            "type": "text"
+          },
+          {
+            "label": "Confirm password",
+            "name": "form_conform_password ",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "title": "Insurance",
+        "content": "Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.",
+        "inputs": [
+          {
+            "label": "Insurance Carrier",
+            "name": "form_street",
+            "type": "text"
+          },
+          {
+            "label": "Adress",
+            "type": "form-group",
+            "inputs": [
+              {
+                "label": "Member ID",
+                "name": "form_city",
+                "type": "text",
+                "col": "6"
+              },
+              {
+                "label": "Date of Birth",
+                "name": "form_state",
+                "type": "text",
+                "col": "6"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Texts",
+    "subtitle": "Add a new listing",
+    "formBlocks": [
+      {
+        "title": "Description",
+        "content": "Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.",
+        "inputs": [
+          {
+            "label": "Describe your place to guests",
+            "name": "form_description",
+            "type": "textarea",
+            "helpId": "descriptionHelp",
+            "help": "The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. 'What's happened to me?' he thought. It wasn't a dream."
+          },
+          {
+            "label": "Your availability",
+            "name": "form_availability",
+            "type": "textarea",
+            "helpId": "availabilityHelp",
+            "help": "His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table."
+          },
+          {
+            "label": "Your neighbourhood",
+            "name": "form_neighbourhood",
+            "type": "textarea",
+            "helpId": "hoodHelp",
+            "help": "Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Disposition and Amenities",
+    "subtitle": "Add a new listing",
+    "formBlocks": [
+      {
+        "title": "Rooms and beds",
+        "content": "The number and types of beds you have determines how many guests can stay comfortably",
+        "inputs": [
+          {
+            "type": "buttons",
+            "buttons": [
+                {
+                    "label": "Beds",
+                    "name": "form_beds"
+                },
+                {
+                    "label": "Bedrooms",
+                    "name": "form_bedrooms"
+                },
+                {
+                    "label": "Bathrooms",
+                    "name": "form_bathrooms"
+                }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Amenities",
+        "content": "His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table.",
+        "inputs": [
+          {
+            "type": "checkboxes",
+            "label": "Available Amenities",
+            "checkboxes": [
+                {
+                    "label": "Kitchen",
+                    "id": "amenities_0",
+                    "name": "amenities[]"
+                },
+                {
+                    "label": "Shampoo",
+                    "id": "amenities_1",
+                    "name": "amenities[]"
+                },
+                {
+                    "label": "Heating",
+                    "id": "amenities_2",
+                    "name": "amenities[]"
+                },
+                {
+                    "label": "Air conditioning",
+                    "id": "amenities_3",
+                    "name": "amenities[]"
+                },
+                {
+                    "label": "Washer",
+                    "id": "amenities_4",
+                    "name": "amenities[]"
+                },
+                {
+                    "label": "Dryer",
+                    "id": "amenities_5",
+                    "name": "amenities[]"
+                },
+                {
+                    "label": "Wifi",
+                    "id": "amenities_6",
+                    "name": "amenities[]"
+                },
+                {
+                    "label": "Breakfast",
+                    "id": "amenities_7",
+                    "name": "amenities[]"
+                },
+                {
+                    "label": "Indoor fireplace",
+                    "id": "amenities_8",
+                    "name": "amenities[]"
+                },
+                {
+                    "label": "Buzzer/wireless intercom",
+                    "id": "amenities_9",
+                    "name": "amenities[]"
+                },
+                {
+                    "label": "Doorman",
+                    "id": "amenities_10",
+                    "name": "amenities[]"
+                },
+                {
+                    "label": "Hangers",
+                    "id": "amenities_11",
+                    "name": "amenities[]"
+                },
+                {
+                    "label": "Iron",
+                    "id": "amenities_12",
+                    "name": "amenities[]"
+                },
+                {
+                    "label": "Hot dryer",
+                    "id": "amenities_13",
+                    "name": "amenities[]"
+                },{
+                    "label": "Laptop friendly workspace",
+                    "id": "amenities_14",
+                    "name": "amenities[]"
+                }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Photos",
+    "subtitle": "Add a new listing",
+    "content": "<p className='text-muted'>His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table.</p><p className='text-muted mb-5'>Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.</p>",
+    "formBlocks": [
+        {
+            "title": "Photos",
+            "content": "His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table.",
+            "inputs": [
+                {
+                    "type": "upload"
+                }
+            ]
+        }
+    ]
+  },
+  {
+    "title": "Linsting uploaded",
+    "subtitle": "Add a new listing",
+    "content": "Thank you, Ondrej. Your listing has been saved and will be reviewed shortly.",
+    "buttons": [
+        {
+            "title": "Do something",
+            "link": "#"
+        },
+        {
+            "title": "Or something else",
+            "link": "#"
+        }
+    ]
+  }
+]

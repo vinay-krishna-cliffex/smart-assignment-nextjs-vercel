@@ -1,0 +1,20 @@
+{
+    "speciality": [
+        {"name":"Acupuncturist"},{"name":"Aesthetic medicine"},{"name":"Allergist"},{"name":"Audiologist"},{"name":"Cardiothoracic Surgeon"},
+    
+        {"name":"Chiropractor"},{"name":"Colorectal Surgeon"},{"name":"Dietitian"},{"name":"Endocrinologist"},{"name":"Eye Surgeon"},
+        
+        {"name":"Gastroenterologist"},{"name":"General surgeon"},{"name":"Geriatrician"},{"name":"Hematologist and Oncologist"},{"name":"Infectious Disease Specialist"},
+        
+        {"name":"Infertility specialist"},{"name":"Midwife"},{"name":"Mental health specialist"},{"name":"Nephrologist"},{"name":"Neurosurgeon"},
+         
+        {"name":"Gynecologist"},{"name":"Optometrist"},{"name":"Oral Surgeon"},{"name":"Orthodontist"},{"name":"Orthopedic Surgeon"},
+        
+        {"name":"Pain Management specialist"},{"name":"Pediatric Dentist"},{"name":"Pediatrician"},{"name":"Pshycholgist"},{"name":"Physiatrist"},
+        
+        {"name":"Physical Therapist"},{"name":"Podiatrist"},{"name":"Prosthodontist"},{"name":"Psychiatrist"},{"name":"Psychologist"},
+        
+        {"name":"Psychotherapist"},{"name":"Pulmonologist"},{"name":"Plastic Surgeon"},{"name":"Radiologist"},{"name":"Rheumatologist"},
+        {"name":"Sleep Medicine Specialist "},{"name":"Sports Medicine Specialist"},{"name":"Urologist"},{"name":"Urgent care specialist"},{"name":"Vascular Surgeon"}
+    ]
+}

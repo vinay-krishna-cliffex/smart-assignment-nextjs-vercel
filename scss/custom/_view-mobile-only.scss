@@ -1,0 +1,11 @@
+.view_user_reviews_mobile_view {
+    display: none;
+    margin-bottom: 0px;
+}
+
+
+@media (max-width: 768px) {
+    .view_user_reviews_mobile_view {
+      display: block !important;
+    }
+}
